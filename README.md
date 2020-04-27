@@ -1,7 +1,12 @@
 ## twinejs
 
-by Chris Klimas, Leon Arnott, Daithi O Crualaoich, Ingrid Cheung, Thomas Michael
+Upstream by Chris Klimas, Leon Arnott, Daithi O Crualaoich, Ingrid Cheung, Thomas Michael
 Edwards, Micah Fitch, Juhana Leinonen, Michael Savich, and Ross Smith
+
+This fork (chibyhq/twinejs) adds :
+* twine-monogatari as a default story format.
+* a default twine-monogatari story format that uses relative resources.
+* the possibility to load / save from locally available story archive files.
 
 ### SYNOPSIS
 
