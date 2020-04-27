@@ -3,7 +3,7 @@ const pref = require('./pref');
 describe('pref data module', () => {
 	test('provides default settings', () => {
 		expect(pref.state.appTheme).toBe('light');
-		expect(pref.state.defaultFormat).toBe('Harlowe');
+		expect(pref.state.defaultFormat).toBe('Twine Monogatari');
 		expect(pref.state.donateShown).toBe(false);
 		expect(typeof pref.state.firstRunTime).toBe('number');
 		expect(pref.state.lastUpdateSeen).toBe('');

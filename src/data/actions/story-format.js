@@ -229,6 +229,12 @@ const actions = (module.exports = {
 				url: 'story-formats/sugarcube-2.31.1/format.js',
 				version: '2.31.1',
 				userAdded: false
+			},
+			{
+				name: 'Twine Monogatari',
+				url: 'story-formats/twine-monogatari-0.2.0/format.js',
+				version: '0.2.0',
+				userAdded: false
 			}
 		];
 
@@ -253,7 +259,7 @@ const actions = (module.exports = {
 			setPref(
 				store,
 				'defaultFormat',
-				{ name: 'Harlowe', version: '3.1.0' }
+				{ name: 'Twine Monogatari', version: '0.2.0' }
 			);
 		}
 
