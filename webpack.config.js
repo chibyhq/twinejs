@@ -73,7 +73,10 @@ const config = (module.exports = {
 			{from: 'src/common/img/favicon.ico', to: 'rsrc/favicon.ico'},
 			{from: 'story-formats/', to: 'story-formats/'},
 			{from: 'src/locale/view/img', to: 'rsrc/'},
-			{from: 'src/locale/po/*.js', to: 'locale/'}
+			{from: 'src/locale/po/*.js', to: 'locale/'},
+			{from: 'node_modules/twine-monogatari/dist/Monogatari', to: 'Monogatari'},
+			{from: 'node_modules/twine-monogatari/dist/twison.js', to: 'twison.js'},
+			{from: 'node_modules/twine-monogatari/dist/twine-monogatari.js', to: 'twine-monogatari.js'}
 		]),
 		new HtmlPlugin({
 			template: './src/index.ejs',
