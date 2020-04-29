@@ -10,6 +10,10 @@
 	},
 	"browserslist": "iOS 1-12, last 2 versions",
 	"main": "src/electron/index.js",
+	"engines": {
+      "node": ">=10.2.0",
+      "npm": ">=6.14.0"
+    },
 	"scripts": {
 		"build": "npm-run-all -l --parallel build:cdn build:web --serial build:build-number",
 		"build:build-number": "node scripts/build-number.js",
